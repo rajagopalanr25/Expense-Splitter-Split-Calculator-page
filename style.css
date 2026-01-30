@@ -12,10 +12,9 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color: #0a182c;
-  color: white;
+  color: black;
   z-index: 1000;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 .logo {
   font-size: 30px;
@@ -36,8 +35,9 @@ body {
 }
 
 #navbar-s2 a:hover {
-  border: 2px solid white;
-  border-radius: 1px;
+  border: 2px solid #1f3b64;
+  border-radius: 3px;
+  color: #0a182c;
 }
 
 .navbar-s3 {
@@ -48,16 +48,12 @@ body {
 .navbar-s3 svg {
   width: 30px;
   height: 30px;
-  stroke: white;
+  stroke: #0a182c;
   stroke-width: 2;
   fill: none;
 }
 
-#navbar,
-#navbar a,
-#navbar .logo {
-  color: #f5f5f5;
-}
+
 
 .Splitter {
   padding: 20px;
@@ -141,9 +137,9 @@ body {
     top: 65px;
     left: 0;
     width: 100%;
-    background-color: #0a182c;
+    background-color: white;
+    color: blue;
     text-align: center;
-
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.4s ease-in-out;
@@ -204,5 +200,3 @@ body {
     width: 100%;
   }
 }
-
-
