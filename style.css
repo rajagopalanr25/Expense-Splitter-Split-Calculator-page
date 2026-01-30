@@ -12,7 +12,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  color: black;
+  color: #551A8B;
   z-index: 1000;
    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
@@ -200,3 +200,4 @@ body {
     width: 100%;
   }
 }
+
