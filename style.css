@@ -15,6 +15,7 @@ body {
   background-color: #0a182c;
   color: rgb(196, 198, 199);
   z-index: 1000;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 .logo {
   font-size: 30px;
@@ -203,3 +204,4 @@ body {
     width: 100%;
   }
 }
+
